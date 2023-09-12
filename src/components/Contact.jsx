@@ -27,7 +27,8 @@ const Contact = () => {
             <input type="text" placeholder="Your Name" />
             <input type="Email" placeholder="Your Email Address" />
             <textarea placeholder="Your Message" rows={10}></textarea>
-            <a href="mailto:ayodeleoyinkansola268@gmail.com"> <button className="btn-primary w-fit">Send Message</button></a>
+            {/* <a href="mailto:ayodeleoyinkansola268@gmail.com"> </a> */}
+            <button className="btn-primary w-fit">Send Message</button>
           </form>
           <div className="flex flex-col  gap-7 ">
             {contact_info.map((contact, i) => (

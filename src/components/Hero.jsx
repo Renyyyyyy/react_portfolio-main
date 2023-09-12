@@ -3,10 +3,10 @@ import hero from '../assets/images/hero.png';
 
 const Hero = () => {
   const social_mediaLinks = [
-    {name:"logo-instagram", link:"https://www.instagram.com/"},
-    {name:"logo-instagram", link:"https://www.instagram.com/"},
-    {name:"logo-instagram", link:"https://www.instagram.com/"},
-    {name:"logo-instagram", link:"https://www.instagram.com/"},
+    // {name:"logo-instagram", link:"https://www.instagram.com/"},
+    // {name:"logo-instagram", link:"https://www.instagram.com/"},
+    // {name:"logo-instagram", link:"https://www.instagram.com/"},
+    // {name:"logo-instagram", link:"https://www.instagram.com/"},
 ];
   return (
   <section id="home" className="min-h-screen flex py-10 md:flex-row flex-col items-center bg-black">
